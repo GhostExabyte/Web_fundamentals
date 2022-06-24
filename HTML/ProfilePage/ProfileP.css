@@ -1,0 +1,35 @@
+#usercard{
+    width: 1200px;
+    background: rgb(255, 255, 255);
+    border-color: darkgrey;
+    border: 3px solid rgb(182, 182, 182);
+    margin: auto;
+
+}
+.cardtop{
+    
+    background-color: rgb(23,162,184)
+}
+.cardbottom{
+    padding: 50px;
+    padding-top: 75px;
+}
+.cardtop img{
+    height: 150px;
+    border-radius: 50%;
+    border:3px solid rgb(189, 189, 189);
+    box-shadow: 0px 0px 0px 2px rgb(247, 247, 247);
+    position: relative;
+    top: 75px;
+    left: 50px;
+}
+.cardbottom img{
+    height: 16px;
+
+}
+.cardbottom *{
+    vertical-align: top;
+}
+.span{
+    font-weight: bold;
+}
