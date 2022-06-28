@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#naviBar{
+    background-color: rgb(112, 112, 112);
+    display: flex;
+    justify-content: space-around;
+    align-items:center ;
+    padding: 75px;
+    height: 100px;
+}
+
+h1{
+    font-size: 48px;
+}
+
+#signOutBtn{
+    background-color: aqua;
+    padding: 10px 20px;
+    font-size: 1.3rem;
+    color: white;
+}
+#naviBarL{
+    color: white;
+    font-size: 1.3rem;
+    float: left;
+}
+ul li:first-child{
+    margin-right: 20px;
+}

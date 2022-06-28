@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 5px;
+    box-sizing: border-box;
+}
+#nav-bar{
+    
+    height: 100px;
+    display: flex;
+    background-color: gray;
+    margin: 0px 30px;
+    gap: 50px;
+    align-items: center;
+    justify-content: space-between;
+
+}
+#nav-bar>h1{
+    margin-left: 20px;
+    font-size: 3.3rem;
+
+}
+#nav-bar>button{
+    height: 50px;
+    width: 100px;
+    background-color: cadetblue;
+    box-shadow: 5px 5px 5px 2px;
+    margin: 5px;
+
+}
+.sea input{
+    width:600px
+}
+#def-body{
+display: flex;
+}
+.defboxR{
+    
+}
+.defboxl{
+    height: 1300px;
+    width: 900px;
+    margin: 25px;
+
+}
+.definebox{
+    margin-bottom: 50px;
+    outline: 5px  solid rgb(174, 0, 255);
+    height: 350px;
+    display: flex;
+}
+.ad{
+    outline: 5px solid springgreen;
+    height: 280px;
+    width: 500px;
+    margin: 25px;
+}
+.ninja{
+    height: 325px;
+    width: 300px;
+    font-size: 30px;
+    margin: 20px;
+    text-align: center;
+}
+.ninja button{
+    padding: 20px 30px;
+    background-color: darkgoldenrod;
+    margin: 20px;
+    box-shadow: 5px 5px;
+    font-size: 20px;
+}
+.ninja-def{
+    font-size: 35px;
+    margin-top: 120px;
+
+}
+Span{
+    color:  rgb(0, 0, 0);
+}
+.ad button{
+    height: 60px;
+    font-size: 32px;
+    position: relative;
+    left: 80px;
+    top: 50px;
+    width: 280px;
+    box-shadow: 5px 5px;
+    background-color: chocolate;
+}
+
+.ad{
+    font-size: 47px;
+    position: relative;
+}
